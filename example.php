@@ -47,3 +47,10 @@ if ($panier > 0) {
 else {
     echo "votre panier est vide";
 }
+
+
+echo "ndfnsdfnlqk";
+
+echo 'deuxieme test de modif';
+
+?>

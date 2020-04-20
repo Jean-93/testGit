@@ -56,13 +56,12 @@ var_dump($saisons);
 ?>*/
 
 
-$saison1 =["été", "automne", "printemps", "hiver"];
+$saisons1 =["été", "automne", "printemps", "hiver"];
 echo "<ul>";
-foreach ($saisons1 as $saisons)
-echo "<ul>"
-    <li>"été"</li>;
-    <li>"automne"</li>;
-    <li>"printemps"</li>;
-    <li>"hiver"</li>;
-</ul>
+foreach ($saisons1 as $saison) {
 
+    echo "<li>" . $saison . "</li>";
+
+}
+
+echo "</ul>";
